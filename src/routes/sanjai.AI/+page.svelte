@@ -3,7 +3,7 @@
     import { WavyBackground } from '$lib/components/ui/WavyBackground';
     import { injectAnalytics } from '@vercel/analytics/sveltekit'
 
-    let prompt = $state('');
+    let prompt = $state('generate captions and hastags');
     let selectedFiles: FileList | null = null;
     let responseText: string = $state('');
     let error: string | null = $state(null);
@@ -213,6 +213,7 @@
                 {:else if responseText}
                     <div class="rounded-b-2xl border-t border-gray-200 p-6 dark:border-gray-700 overflow-y-auto max-h-96 scrollbar-hide">
                         <SvelteMarkdown source={responseText} />
+                        
                     </div>
                 {/if}
             </div>

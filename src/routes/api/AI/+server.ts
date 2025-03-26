@@ -95,6 +95,20 @@ export const POST = async ({ request }: { request: Request }) => {
 		if (images.length > 0) {
 			const imageParts = await Promise.all(
 				images.map(async (image) => {
+					// Ensure support for GIF and other image types
+					const supportedMimeTypes = [
+						'image/jpeg', 
+						'image/png', 
+						'image/gif',   
+						'image/webp',
+						'image/bmp'
+					];
+
+					// Validate image type
+					if (!supportedMimeTypes.includes(image.type)) {
+						throw error(400, `Unsupported image type: ${image.type}`);
+					}
+
 					const arrayBuffer = await image.arrayBuffer();
 					const base64Image = Buffer.from(arrayBuffer).toString('base64');
 					return {
