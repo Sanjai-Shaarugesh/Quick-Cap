@@ -48,6 +48,8 @@ A Quick & Easy Caption Generator For Your Social Media Posts
  - PyTorch (ML Model Creation)
  - Fast API (ML Backend)
 
+## BE HAPPY
+
 
 #### contributer Sanjai-Shaarugesh
 
