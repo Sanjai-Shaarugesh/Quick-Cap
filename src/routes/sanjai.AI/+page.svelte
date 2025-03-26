@@ -94,8 +94,8 @@
 </script>
 
 <svelte:head>
-    <title>Sanjai.AI</title>
-    <meta name="description" content="A powerful AI chatbot created by Sanjai." />
+    <title>Quick-Cap</title>
+    <meta name="description" content="An AI Caption & Hastag Generator" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </svelte:head>
 
@@ -195,11 +195,11 @@
                             onclick={fetchResponse}
                             class="w-full rounded-lg bg-gradient-to-r from-blue-500 to-purple-500 px-6 py-3 font-bold text-white shadow-md transition duration-300 hover:from-blue-600 hover:to-purple-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 active:scale-95"
                         >
-                            Ask Sanjai
+                            Generate
                         </button>
                         <button
                             onclick={clearChat}
-                            class="w-full rounded-lg bg-red-500 px-6 py-3 font-bold text-white shadow-md transition duration-300 hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50 active:scale-95"
+                            class="w-full rounded-lg bg-red-800 px-6 py-3 font-bold text-white shadow-md transition duration-300 hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-opacity-50 active:scale-95"
                         >
                             Clear Chat
                         </button>

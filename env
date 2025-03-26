@@ -1,0 +1,12 @@
+AUTH_SECRET = "z0RHtfS26zH9NnmvOWdxMezOG/izVmvbuF5B/NvfDGk=" # Added by `npx auth`. Read more: https://cli.authjs.dev
+GITHUB_ID = Ov23liDU5gjZ4FAIbSky
+GITHUB_SECRET = b9664436425246265c25f311928e4e61205d6e36
+AI_API = "AIzaSyD8oQbArEof3-_MR17j8W3Q3MVgrZihVtM"
+GITHUB_PROFILE = 'https://github.com/Sanjai-Shaarugesh'
+AUTH_TRUST_HOST = http://localhost:3000
+
+
+DATABASE_URL = libsql://githooo-sanjai.turso.io
+DATABASE_AUTH_TOKEN = eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJhIjoicnciLCJpYXQiOjE3MzkyNzQyMjcsImlkIjoiYTk5ZDg2OTEtMWZlMC00MjM1LTgzNmQtZjk5YTdmYmU4YWI1In0.GQi7IZkdkwbgZYBMjPyp_-hHsXwbQgaFwvjqnWODA4Qa2Ejo7Y1Cm7ZvrxfC4sPu18gohS4U2qRgU3pCyKYVCQ
+
+
