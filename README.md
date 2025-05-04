@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Stop Stressing, Start Trending!
 
 # QuickCap
